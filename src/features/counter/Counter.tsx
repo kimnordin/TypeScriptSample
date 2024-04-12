@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { incremented, decremented, selectCount } from './counterSlice';
 import './Counter.css';
