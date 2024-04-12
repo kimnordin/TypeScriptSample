@@ -12,10 +12,10 @@ export function Counter() {
       <h2>Counter</h2>
       <div className="countDisplay">{count}</div>
       <div className="buttons">
-        <button onClick={() => dispatch(incremented(10))}>+10</button>
-        <button onClick={() => dispatch(incremented(1))}>+</button>
-        <button onClick={() => dispatch(decremented(1))}>-</button>
         <button onClick={() => dispatch(decremented(10))}>-10</button>
+        <button onClick={() => dispatch(decremented(1))}>-</button>
+        <button onClick={() => dispatch(incremented(1))}>+</button>
+        <button onClick={() => dispatch(incremented(10))}>+10</button>
       </div>
     </div>
   );
