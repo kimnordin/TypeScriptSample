@@ -1,26 +1,37 @@
 .counter {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .countDisplay {
-    font-size: 2em;
-    margin: 20px 0;
-  }
-  
-  .buttons button {
-    background-color: #007bff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .buttons button:hover {
-    background-color: #0056b3;
-  }
-  
+  text-align: center;
+  margin-top: 20px;
+}
+
+.countDisplay {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.counterButton {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.counterButton:hover {
+  background-color: #0066d3;
+}
+
+.inputWrapper {
+  padding: 15px;
+}
+
+.inputWrapper input {
+  border-color: #007bff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+}
